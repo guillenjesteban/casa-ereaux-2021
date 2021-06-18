@@ -201,7 +201,7 @@ nav {
 /* SWIRL BACKGROUND */
 
 .background {
-  background: url("/images/background-main.svg") no-repeat center center fixed; 
+  background: url("/images/background-main.png") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -386,7 +386,7 @@ section {
 }
 
 .heritage {
-    background: url("/images/section1-background.svg") no-repeat center center fixed; 
+    background: url("/images/section1-background.png") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -680,7 +680,7 @@ h3 {
 
 
 .land {
-background: url("/images/land.svg") no-repeat center center fixed; 
+background: url("/images/land.png") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -795,7 +795,7 @@ background: url("/images/land.svg") no-repeat center center fixed;
 /* WINES SECTION */
 
 .wines {
-    background: url("/images/wines.svg") no-repeat center center fixed; 
+    background: url("/images/wines.png") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -877,8 +877,23 @@ span.swiper-pagination-bullet:active {
 }
 
 .wine-bottle-container {
-    width: 35%;
     margin-left: 10%;
+}
+
+.wine-text-image-container {
+    width: 150%;
+}
+
+.wine-text-image-container img {
+    width: 100%;
+}
+
+.wine-bottle-container {
+    width: 80%;
+}
+
+.wine-bottle-container img {
+    width: 100%;
 }
 /* 
 .wine-bottle-container img {
@@ -976,7 +991,7 @@ footer {
 }
 
 .footer-background {
-    background: url("/images/background-main.svg") no-repeat center center fixed; 
+    background: url("/images/background-main.png") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -1394,7 +1409,19 @@ footer {
     }
 
     .wine-text-image-container {
-        width: 90%;
+        width: 150%;
+    }
+
+    .wine-text-image-container img {
+        width: 100%;
+    }
+
+    .wine-bottle-container {
+        width: 80%;
+    }
+
+    .wine-bottle-container img {
+        width: 100%;
     }
 
     /* china slider */
