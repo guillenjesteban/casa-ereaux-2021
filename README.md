@@ -33,4 +33,4 @@ Also they didn’t have a strong and concrete visual identity and could not comm
 Creating a concept that could describe the wine and connect with the audience and communicate it through user touchpoints, in this case, the creation of a website.
 
 
-## [Live View](https://casaereaux2021.netlify.app)
+## [Live View](https://casaereaux2021.netlify.app/html)
