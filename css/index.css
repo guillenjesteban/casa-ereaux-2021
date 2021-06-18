@@ -201,12 +201,12 @@ nav {
 /* SWIRL BACKGROUND */
 
 .background {
-  background: url("/images/background-main.png") no-repeat center center fixed; 
+  background: url("/images/background-main.png");
+  /* no-repeat center center fixed;  */
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  z-index: -1;
   width: 100vw;
   /* height: 100vh; */
   background-color: #191715;
@@ -290,6 +290,7 @@ nav {
     /* top: -2em; */
     margin: 0 auto;
     z-index: 2;
+    object-fit: contain;
 }
 
 
@@ -386,11 +387,21 @@ section {
 }
 
 .heritage {
-    background: url("/images/section1-background.png") no-repeat center center fixed; 
+    /* background: url("/images/section1-background.png") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
+
+  background-image: url("/images/section1-background.png");
+background-repeat: no-repeat;
+background-position: center bottom;
+background-attachment: scroll;
+background-size: cover;
+-ms-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
 
 }
 
@@ -492,7 +503,7 @@ h3 {
     font-size: 80px;
     font-weight: lighter;
     letter-spacing: 3px;
-    z-index: 600;
+    z-index: 600000000;
     margin: 10%;
     padding: 2%;
     text-align: center;
@@ -680,11 +691,21 @@ h3 {
 
 
 .land {
-background: url("/images/land.png") no-repeat center center fixed; 
+/* background: url("/images/land.png") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover;
+  -o-background-size: cover; */
+
+  background-image: url("/images/land.png");
+background-repeat: no-repeat;
+background-position: center bottom;
+background-attachment: scroll;
+background-size: cover;
+-ms-background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+-webkit-background-size: cover;
 }
 
 
@@ -795,11 +816,23 @@ background: url("/images/land.png") no-repeat center center fixed;
 /* WINES SECTION */
 
 .wines {
-    background: url("/images/wines.png") no-repeat center center fixed; 
+    /* background: url("/images/wines.png") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover; */
+
+  background-image: url("/images/wines.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: scroll;
+  background-size: cover;
+  -ms-background-size: cover;
   -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+
+  
 }
 
 
@@ -907,11 +940,21 @@ span.swiper-pagination-bullet:active {
 /* EVENTS */
 
 .events {
-  background: url("/images/polo.jpg") no-repeat center center fixed; 
+  /* background: url("/images/polo.jpg") no-repeat center center fixed; 
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
+  -o-background-size: cover; */
+
+  background-image: url("/images/polo.jpg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: scroll;
+  background-size: cover;
+  -ms-background-size: cover;
   -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
 }
 
 /* china slider */
