@@ -236,6 +236,8 @@ nav {
 .wine-image-container img {
     width: 50%;
     margin: 0 auto;
+    object-fit: contain;
+
 }
 
 .left-text-container {
@@ -290,7 +292,6 @@ nav {
     /* top: -2em; */
     margin: 0 auto;
     z-index: 2;
-    object-fit: contain;
 }
 
 
